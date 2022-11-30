@@ -13,9 +13,9 @@
 2. Deadline：2022-12-31
 
 # 文件介绍
-model.py: 示例代码，实现了中文RNN语言模型的部分功能
-train/eval.txt: 中文RNN语言模型的训练/验证集
-train/eval/test_en.txt: 英文RNN语言模型的训练/验证/测试集
+model.py: 示例代码，实现了中文RNN语言模型的部分功能 <br>
+train/eval.txt: 中文RNN语言模型的训练/验证集 <br>
+train/eval/test_en.txt: 英文RNN语言模型的训练/验证/测试集 <br>
 
 # 依赖包的安装
 运行model.py需要自行安装jieba和**pytorch**，jieba之前已经使用过。而pytorch是一个非常常用又相对简单的深度学习python包，在自己实现语言模型时也可以使用pytorch。下面简单介绍它的安装
@@ -25,9 +25,9 @@ pip install pytorch
 到pytorch官网的[下载页面](https://pytorch.org/get-started/previous-versions/)有更详细的介绍
 
 ## 常见问题
-下载超时：因为pip默认服务器在国外，百度搜索pip换源，改为国内的阿里云节点下载即可
-下载好了却用不了：尝试pip3 install pytorch
-提示和已有环境冲突：pytorch有很多个版本，pip会一直试，总有一款适合你。想彻底解决请使用[Anaconda](https://www.anaconda.com/)。
+下载超时：因为pip默认服务器在国外，百度搜索pip换源，改为国内的阿里云节点下载即可 <br>
+下载好了却用不了：尝试pip3 install pytorch <br>
+提示和已有环境冲突：pytorch有很多个版本，pip会一直试，总有一款适合你。想彻底解决请使用[Anaconda](https://www.anaconda.com/)。 <br>
 
 ## GPU版本pytorch安装
 一般来说使用最简单的方法安装pytorch即可，但深度学习一般使用GPU，而pip默认安装CPU版pytorch。GPU版pytorch和CPU版的差别在于几分钟和几小时完成训练。想安装GPU版pytorch，需要其他包和显卡驱动的配合，具体请参考pytorch官网的[下载页面](https://pytorch.org/get-started/previous-versions/)和百度。
