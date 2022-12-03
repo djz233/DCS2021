@@ -55,4 +55,5 @@ pytorch官网的[下载页面](https://pytorch.org/get-started/previous-versions
 1. 请仔细阅读注释，标有**critical**为重要部分
 2. 示例代码并没有实现**评估标准**中第二个任务的代码
 3. 遇到不了解的torch函数请自行查阅[pytorch官方文档](https://pytorch.org/docs/stable/index.html)
-4. 遇到bug却不知道哪里错了？使用pdb包进行debug，通过插入import pdb; pdb.set_trace()在需要的地方（比如bug之前）插入断点，然后逐步追凶，更多pdb包的使用请百度。使用vsocde和pycharm软件自带的debug工具更方便。
+4. 遇到bug却不知道哪里错了？使用pdb包进行debug，通过插入import pdb; pdb.set_trace()在需要的地方（比如bug之前）插入断点，然后逐步检查，更多pdb包的教程请百度。使用vscode和pycharm软件自带的debug工具更方便。
+5. ~~给[这个项目](https://github.com/djz233/D-DGCN)和[这个项目](https://github.com/TaoYang225/AD-DROP)点star有机会得到加分~~
